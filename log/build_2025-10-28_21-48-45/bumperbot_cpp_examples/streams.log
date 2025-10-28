@@ -1,0 +1,62 @@
+[0.031s] Invoking command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jn403l/Documents/ros2-sandbox/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples
+[0.364s] -- The CXX compiler identification is GNU 13.3.0
+[0.409s] -- Detecting CXX compiler ABI info
+[0.599s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.624s] -- Detecting CXX compile features
+[0.625s] -- Detecting CXX compile features - done
+[0.643s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.919s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.166s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.302s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.352s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.637s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.646s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.865s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.899s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.953s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.123s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.158s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.401s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.401s] -- Configured cppcheck include dirs: 
+[2.401s] -- Configured cppcheck exclude dirs and/or files: 
+[2.422s] -- Added test 'lint_cmake' to check CMake code style
+[2.462s] -- Added test 'uncrustify' to check C / C++ code style
+[2.462s] -- Configured uncrustify additional arguments: 
+[2.467s] -- Added test 'xmllint' to check XML markup files
+[2.472s] -- Configuring done (2.4s)
+[2.502s] -- Generating done (0.0s)
+[2.516s] -- Build files have been written to: /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples
+[2.537s] Invoked command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jn403l/Documents/ros2-sandbox/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples
+[2.539s] Invoking command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples -- -j4 -l4
+[2.660s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[2.662s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[13.062s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[13.604s] [ 75%] Built target simple_publisher
+[16.543s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[17.156s] [100%] Built target simple_subscriber
+[17.176s] Invoked command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples -- -j4 -l4
+[17.195s] Invoking command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples
+[17.208s] -- Install configuration: "Debug"
+[17.208s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[17.215s] -- Set non-toolchain portion of runtime path of "/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[17.216s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[17.228s] -- Set non-toolchain portion of runtime path of "/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[17.228s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[17.229s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[17.229s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[17.229s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[17.230s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[17.230s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[17.230s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[17.230s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[17.231s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[17.231s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[17.231s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[17.232s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[17.232s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[17.232s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[17.233s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[17.236s] Invoked command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples

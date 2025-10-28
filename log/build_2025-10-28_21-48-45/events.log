@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000996] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.001188] (bumperbot_py_examples) JobQueued: {'identifier': 'bumperbot_py_examples', 'dependencies': OrderedDict()}
+[0.001223] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.018759] (bumperbot_py_examples) JobStarted: {'identifier': 'bumperbot_py_examples'}
+[0.029508] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.031031] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/jn403l/Documents/ros2-sandbox/src/bumperbot_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples'], 'cwd': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jn403l', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jn403l', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jn403l/.nvm/versions/node/v22.20.0/bin', 'NVM_INC': '/home/jn403l/.nvm/versions/node/v22.20.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2601', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/jn403l/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jn403l', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jn403l', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/jn403l/.nvm/versions/node/v22.20.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jn403l/.cargo/bin:/home/jn403l/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jn403l-ThinkPad-X270-W10DG:@/tmp/.ICE-unix/2601,unix/jn403l-ThinkPad-X270-W10DG:/tmp/.ICE-unix/2601', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/17d7cae8_e585_4211_a41a_5d45dd4e57c8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4WEF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099574] (-) TimerEvent: {}
+[0.199857] (-) TimerEvent: {}
+[0.300587] (-) TimerEvent: {}
+[0.364920] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.400725] (-) TimerEvent: {}
+[0.409403] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500823] (-) TimerEvent: {}
+[0.600388] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600899] (-) TimerEvent: {}
+[0.620166] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.624570] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.626464] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.643920] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.702864] (-) TimerEvent: {}
+[0.803253] (-) TimerEvent: {}
+[0.903648] (-) TimerEvent: {}
+[0.920073] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.003761] (-) TimerEvent: {}
+[1.104072] (-) TimerEvent: {}
+[1.167063] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.204192] (-) TimerEvent: {}
+[1.302621] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.304271] (-) TimerEvent: {}
+[1.353148] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.404377] (-) TimerEvent: {}
+[1.411042] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.463993] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.504486] (-) TimerEvent: {}
+[1.604790] (-) TimerEvent: {}
+[1.638377] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.647045] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.704919] (-) TimerEvent: {}
+[1.805295] (-) TimerEvent: {}
+[1.818117] (bumperbot_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bumperbot_py_examples', 'build', '--build-base', '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build', 'install', '--record', '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jn403l/Documents/ros2-sandbox/src/bumperbot_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jn403l', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jn403l', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jn403l/.nvm/versions/node/v22.20.0/bin', 'NVM_INC': '/home/jn403l/.nvm/versions/node/v22.20.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2601', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/jn403l/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jn403l', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jn403l', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/jn403l/.nvm/versions/node/v22.20.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jn403l/.cargo/bin:/home/jn403l/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jn403l-ThinkPad-X270-W10DG:@/tmp/.ICE-unix/2601,unix/jn403l-ThinkPad-X270-W10DG:/tmp/.ICE-unix/2601', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/17d7cae8_e585_4211_a41a_5d45dd4e57c8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4WEF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.865705] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.899971] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.905394] (-) TimerEvent: {}
+[1.954327] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.005504] (-) TimerEvent: {}
+[2.105850] (-) TimerEvent: {}
+[2.123848] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.158500] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.205970] (-) TimerEvent: {}
+[2.266873] (bumperbot_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[2.267470] (bumperbot_py_examples) StdoutLine: {'line': b'creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info\n'}
+[2.299705] (bumperbot_py_examples) StdoutLine: {'line': b'writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO\n'}
+[2.300121] (bumperbot_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt\n'}
+[2.300484] (bumperbot_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt\n'}
+[2.300763] (bumperbot_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt\n'}
+[2.301036] (bumperbot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[2.306057] (-) TimerEvent: {}
+[2.370496] (bumperbot_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[2.371496] (bumperbot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[2.371876] (bumperbot_py_examples) StdoutLine: {'line': b'running build\n'}
+[2.372268] (bumperbot_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[2.372577] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build\n'}
+[2.372782] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build/lib\n'}
+[2.373073] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[2.373253] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/__init__.py -> /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[2.373423] (bumperbot_py_examples) StdoutLine: {'line': b'running install\n'}
+[2.385030] (bumperbot_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[2.401984] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.402361] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.402566] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.406145] (-) TimerEvent: {}
+[2.423191] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.437326] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples\n'}
+[2.437649] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples\n'}
+[2.438050] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-312.pyc\n'}
+[2.438541] (bumperbot_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[2.438845] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/share/ament_index\n'}
+[2.439196] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/share/ament_index/resource_index\n'}
+[2.439439] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/share/ament_index/resource_index/packages\n'}
+[2.439672] (bumperbot_py_examples) StdoutLine: {'line': b'copying resource/bumperbot_py_examples -> /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/share/ament_index/resource_index/packages\n'}
+[2.439894] (bumperbot_py_examples) StdoutLine: {'line': b'copying package.xml -> /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/share/bumperbot_py_examples\n'}
+[2.440146] (bumperbot_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.462745] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.463028] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.468255] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.473521] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.487387] (bumperbot_py_examples) StdoutLine: {'line': b'Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info\n'}
+[2.489444] (bumperbot_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[2.503158] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.506239] (-) TimerEvent: {}
+[2.517409] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples\n'}
+[2.537518] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[2.538491] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'build'}
+[2.539625] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', '--', '-j4', '-l4'], 'cwd': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jn403l', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jn403l', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jn403l/.nvm/versions/node/v22.20.0/bin', 'NVM_INC': '/home/jn403l/.nvm/versions/node/v22.20.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2601', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/jn403l/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jn403l', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jn403l', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/jn403l/.nvm/versions/node/v22.20.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jn403l/.cargo/bin:/home/jn403l/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jn403l-ThinkPad-X270-W10DG:@/tmp/.ICE-unix/2601,unix/jn403l-ThinkPad-X270-W10DG:/tmp/.ICE-unix/2601', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/17d7cae8_e585_4211_a41a_5d45dd4e57c8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4WEF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.606826] (-) TimerEvent: {}
+[2.661065] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[2.662916] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[2.706926] (-) TimerEvent: {}
+[2.807286] (-) TimerEvent: {}
+[2.849455] (bumperbot_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/install.log'\n"}
+[2.907440] (-) TimerEvent: {}
+[2.920861] (bumperbot_py_examples) CommandEnded: {'returncode': 0}
+[2.952936] (bumperbot_py_examples) JobEnded: {'identifier': 'bumperbot_py_examples', 'rc': 0}
+[3.007572] (-) TimerEvent: {}
+[3.107859] (-) TimerEvent: {}
+[3.208221] (-) TimerEvent: {}
+[3.309359] (-) TimerEvent: {}
+[3.409712] (-) TimerEvent: {}
+[3.510168] (-) TimerEvent: {}
+[3.611077] (-) TimerEvent: {}
+[3.711678] (-) TimerEvent: {}
+[3.812059] (-) TimerEvent: {}
+[3.912451] (-) TimerEvent: {}
+[4.012817] (-) TimerEvent: {}
+[4.113225] (-) TimerEvent: {}
+[4.213609] (-) TimerEvent: {}
+[4.313986] (-) TimerEvent: {}
+[4.414383] (-) TimerEvent: {}
+[4.514780] (-) TimerEvent: {}
+[4.615120] (-) TimerEvent: {}
+[4.715503] (-) TimerEvent: {}
+[4.815907] (-) TimerEvent: {}
+[4.916313] (-) TimerEvent: {}
+[5.016693] (-) TimerEvent: {}
+[5.117115] (-) TimerEvent: {}
+[5.217457] (-) TimerEvent: {}
+[5.317875] (-) TimerEvent: {}
+[5.418321] (-) TimerEvent: {}
+[5.518950] (-) TimerEvent: {}
+[5.620938] (-) TimerEvent: {}
+[5.721659] (-) TimerEvent: {}
+[5.821981] (-) TimerEvent: {}
+[5.922358] (-) TimerEvent: {}
+[6.022746] (-) TimerEvent: {}
+[6.126257] (-) TimerEvent: {}
+[6.226673] (-) TimerEvent: {}
+[6.327064] (-) TimerEvent: {}
+[6.427454] (-) TimerEvent: {}
+[6.527814] (-) TimerEvent: {}
+[6.628200] (-) TimerEvent: {}
+[6.728565] (-) TimerEvent: {}
+[6.828940] (-) TimerEvent: {}
+[6.930351] (-) TimerEvent: {}
+[7.030746] (-) TimerEvent: {}
+[7.131162] (-) TimerEvent: {}
+[7.231540] (-) TimerEvent: {}
+[7.331950] (-) TimerEvent: {}
+[7.432353] (-) TimerEvent: {}
+[7.532758] (-) TimerEvent: {}
+[7.633113] (-) TimerEvent: {}
+[7.733487] (-) TimerEvent: {}
+[7.833859] (-) TimerEvent: {}
+[7.934266] (-) TimerEvent: {}
+[8.034701] (-) TimerEvent: {}
+[8.135122] (-) TimerEvent: {}
+[8.235474] (-) TimerEvent: {}
+[8.335852] (-) TimerEvent: {}
+[8.436283] (-) TimerEvent: {}
+[8.536704] (-) TimerEvent: {}
+[8.637125] (-) TimerEvent: {}
+[8.737502] (-) TimerEvent: {}
+[8.837972] (-) TimerEvent: {}
+[8.938424] (-) TimerEvent: {}
+[9.038785] (-) TimerEvent: {}
+[9.139172] (-) TimerEvent: {}
+[9.239554] (-) TimerEvent: {}
+[9.340003] (-) TimerEvent: {}
+[9.440421] (-) TimerEvent: {}
+[9.541959] (-) TimerEvent: {}
+[9.642319] (-) TimerEvent: {}
+[9.742671] (-) TimerEvent: {}
+[9.843069] (-) TimerEvent: {}
+[9.943469] (-) TimerEvent: {}
+[10.043839] (-) TimerEvent: {}
+[10.144258] (-) TimerEvent: {}
+[10.244628] (-) TimerEvent: {}
+[10.344988] (-) TimerEvent: {}
+[10.445441] (-) TimerEvent: {}
+[10.545847] (-) TimerEvent: {}
+[10.646236] (-) TimerEvent: {}
+[10.746651] (-) TimerEvent: {}
+[10.847074] (-) TimerEvent: {}
+[10.947475] (-) TimerEvent: {}
+[11.047857] (-) TimerEvent: {}
+[11.148236] (-) TimerEvent: {}
+[11.248696] (-) TimerEvent: {}
+[11.349101] (-) TimerEvent: {}
+[11.449453] (-) TimerEvent: {}
+[11.549814] (-) TimerEvent: {}
+[11.650207] (-) TimerEvent: {}
+[11.750548] (-) TimerEvent: {}
+[11.850887] (-) TimerEvent: {}
+[11.951256] (-) TimerEvent: {}
+[12.051609] (-) TimerEvent: {}
+[12.151980] (-) TimerEvent: {}
+[12.252343] (-) TimerEvent: {}
+[12.352676] (-) TimerEvent: {}
+[12.453049] (-) TimerEvent: {}
+[12.553420] (-) TimerEvent: {}
+[12.653738] (-) TimerEvent: {}
+[12.754082] (-) TimerEvent: {}
+[12.854445] (-) TimerEvent: {}
+[12.954814] (-) TimerEvent: {}
+[13.055245] (-) TimerEvent: {}
+[13.062951] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[13.155368] (-) TimerEvent: {}
+[13.255724] (-) TimerEvent: {}
+[13.356098] (-) TimerEvent: {}
+[13.456488] (-) TimerEvent: {}
+[13.556864] (-) TimerEvent: {}
+[13.604623] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[13.657005] (-) TimerEvent: {}
+[13.757342] (-) TimerEvent: {}
+[13.857689] (-) TimerEvent: {}
+[13.958036] (-) TimerEvent: {}
+[14.058394] (-) TimerEvent: {}
+[14.158748] (-) TimerEvent: {}
+[14.259100] (-) TimerEvent: {}
+[14.359410] (-) TimerEvent: {}
+[14.459725] (-) TimerEvent: {}
+[14.560070] (-) TimerEvent: {}
+[14.660421] (-) TimerEvent: {}
+[14.760791] (-) TimerEvent: {}
+[14.861141] (-) TimerEvent: {}
+[14.961599] (-) TimerEvent: {}
+[15.062069] (-) TimerEvent: {}
+[15.162647] (-) TimerEvent: {}
+[15.263229] (-) TimerEvent: {}
+[15.364320] (-) TimerEvent: {}
+[15.465539] (-) TimerEvent: {}
+[15.566361] (-) TimerEvent: {}
+[15.666703] (-) TimerEvent: {}
+[15.767088] (-) TimerEvent: {}
+[15.867420] (-) TimerEvent: {}
+[15.967732] (-) TimerEvent: {}
+[16.068059] (-) TimerEvent: {}
+[16.168416] (-) TimerEvent: {}
+[16.268804] (-) TimerEvent: {}
+[16.369250] (-) TimerEvent: {}
+[16.469576] (-) TimerEvent: {}
+[16.544020] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[16.569717] (-) TimerEvent: {}
+[16.670041] (-) TimerEvent: {}
+[16.770477] (-) TimerEvent: {}
+[16.870919] (-) TimerEvent: {}
+[16.971363] (-) TimerEvent: {}
+[17.071759] (-) TimerEvent: {}
+[17.157198] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[17.171941] (-) TimerEvent: {}
+[17.176707] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[17.177978] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'install'}
+[17.194833] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples'], 'cwd': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'jn403l', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jn403l', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/jn403l/.nvm/versions/node/v22.20.0/bin', 'NVM_INC': '/home/jn403l/.nvm/versions/node/v22.20.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2601', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/jn403l/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jn403l', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jn403l', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/jn403l/.nvm/versions/node/v22.20.0/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/jn403l/.cargo/bin:/home/jn403l/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jn403l-ThinkPad-X270-W10DG:@/tmp/.ICE-unix/2601,unix/jn403l-ThinkPad-X270-W10DG:/tmp/.ICE-unix/2601', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/17d7cae8_e585_4211_a41a_5d45dd4e57c8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C4WEF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ffd46a7580a726195547a40e6900bb5e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[17.209017] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[17.209354] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher\n'}
+[17.216473] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""\n'}
+[17.216778] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber\n'}
+[17.229173] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""\n'}
+[17.229482] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples\n'}
+[17.229725] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples\n'}
+[17.229966] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[17.230227] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[17.230667] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh\n'}
+[17.230913] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv\n'}
+[17.231200] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash\n'}
+[17.231431] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh\n'}
+[17.231666] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh\n'}
+[17.232042] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv\n'}
+[17.232436] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv\n'}
+[17.232874] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples\n'}
+[17.233161] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake\n'}
+[17.233393] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake\n'}
+[17.233623] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml\n'}
+[17.236026] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[17.251480] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 0}
+[17.253207] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[1.870s] Invoking command in '/home/jn403l/Documents/ros2-sandbox/src/bumperbot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build install --record /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[2.323s] running egg_info
+[2.356s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[2.356s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[2.357s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[2.357s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[2.445s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.447s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[2.447s] running build
+[2.447s] running build_py
+[2.447s] running install
+[2.457s] running install_lib
+[2.494s] running install_data
+[2.494s] running install_egg_info
+[2.532s] removing '/home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[2.533s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages/bumperbot_py_examples-0.0.0-py3.12.egg-info
+[2.534s] running install_scripts
+[2.765s] writing list of installed files to '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/install.log'
+[2.826s] Invoked command in '/home/jn403l/Documents/ros2-sandbox/src/bumperbot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jn403l/Documents/ros2-sandbox/install/bumperbot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/build install --record /home/jn403l/Documents/ros2-sandbox/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

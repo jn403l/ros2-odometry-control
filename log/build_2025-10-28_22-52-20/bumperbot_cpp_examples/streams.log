@@ -1,0 +1,24 @@
+[0.056s] Invoking command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples -- -j4 -l4
+[0.243s] [ 50%] Built target simple_subscriber
+[0.249s] [100%] Built target simple_publisher
+[0.702s] Invoked command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples -- -j4 -l4
+[0.731s] Invoking command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples
+[0.751s] -- Install configuration: "Debug"
+[0.752s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.753s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.754s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.755s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.755s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.755s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.756s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.756s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.756s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.757s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.757s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.757s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.758s] -- Installing: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.758s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.759s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.759s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.761s] -- Up-to-date: /home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.762s] Invoked command in '/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples
