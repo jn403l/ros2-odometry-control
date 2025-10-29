@@ -46,6 +46,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
     "/home/jn403l/Documents/ros2-odometry-control/src/bumperbot_description/meshes"
     "/home/jn403l/Documents/ros2-odometry-control/src/bumperbot_description/urdf"
+    "/home/jn403l/Documents/ros2-odometry-control/src/bumperbot_description/launch"
+    "/home/jn403l/Documents/ros2-odometry-control/src/bumperbot_description/rviz"
     )
 endif()
 
