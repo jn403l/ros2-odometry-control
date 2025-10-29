@@ -1,38 +1,40 @@
 cmake_minimum_required(VERSION 3.8)
 project(bumperbot_cpp_examples LANGUAGES CXX)
 
-#minimum setup for lsp?
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_BUILD_TYPE Debug)
-# 1) Find ament and your ROS deps
+# 1) Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(rcl_interfaces REQUIRED)
 
 # 2) Targets
 add_executable(simple_publisher src/simple_publisher.cpp)
 target_compile_features(simple_publisher PUBLIC cxx_std_20)
 
 add_executable(simple_subscriber src/simple_subscriber.cpp)
-target_compile_features(simple_publisher PUBLIC cxx_std_20)
+target_compile_features(simple_subscriber PUBLIC cxx_std_20)
+
+add_executable(simple_parameter src/simple_parameter.cpp)
+target_compile_features(simple_parameter PUBLIC cxx_std_20)
 
 # 3) Link ROS deps to target
 ament_target_dependencies(simple_publisher rclcpp std_msgs)
 ament_target_dependencies(simple_subscriber rclcpp std_msgs)
+ament_target_dependencies(simple_parameter rclcpp rcl_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
-find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+
+#find_package(ament_cmake REQUIRED)
 
 install(TARGETS
   simple_publisher
   simple_subscriber
+  simple_parameter
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

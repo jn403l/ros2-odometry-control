@@ -1,8 +1,8 @@
-# Install script for directory: /home/jn403l/Documents/ros2-sandbox/src/bumperbot_cpp_examples
+# Install script for directory: /home/jn403l/Documents/ros2-odometry-control/src/bumperbot_cpp_examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jn403l/Documents/ros2-sandbox/install/bumperbot_cpp_examples")
+  set(CMAKE_INSTALL_PREFIX "/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples" TYPE EXECUTABLE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/simple_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples" TYPE EXECUTABLE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/simple_publisher")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_publisher" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_publisher")
     file(RPATH_CHANGE
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/CMakeFiles/simple_publisher.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+  include("/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/CMakeFiles/simple_publisher.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_subscriber"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples" TYPE EXECUTABLE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/simple_subscriber")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples" TYPE EXECUTABLE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/simple_subscriber")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_subscriber" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_subscriber")
     file(RPATH_CHANGE
@@ -87,15 +87,39 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/CMakeFiles/simple_subscriber.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+  include("/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/CMakeFiles/simple_subscriber.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples" TYPE EXECUTABLE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/simple_parameter")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter"
+         OLD_RPATH "/opt/ros/jazzy/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bumperbot_cpp_examples/simple_parameter")
+    endif()
+  endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples")
+  include("/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/CMakeFiles/simple_parameter.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,7 +127,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples/environment" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples/environment" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -111,42 +135,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples/environment" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples/environment" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/packages/bumperbot_cpp_examples")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/packages/bumperbot_cpp_examples")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples/cmake" TYPE FILE FILES
-    "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_core/bumperbot_cpp_examplesConfig.cmake"
-    "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/ament_cmake_core/bumperbot_cpp_examplesConfig-version.cmake"
+    "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_core/bumperbot_cpp_examplesConfig.cmake"
+    "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/ament_cmake_core/bumperbot_cpp_examplesConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-sandbox/src/bumperbot_cpp_examples/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_cpp_examples" TYPE FILE FILES "/home/jn403l/Documents/ros2-odometry-control/src/bumperbot_cpp_examples/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -157,5 +181,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jn403l/Documents/ros2-sandbox/build/bumperbot_cpp_examples/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
