@@ -1,0 +1,39 @@
+[0.052s] Invoking command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description -- -j4 -l4
+[0.177s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.811s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.954s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.982s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.166s] -- Added test 'lint_cmake' to check CMake code style
+[1.170s] -- Added test 'xmllint' to check XML markup files
+[1.174s] -- Configuring done (1.1s)
+[1.184s] -- Generating done (0.0s)
+[1.188s] -- Build files have been written to: /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description
+[1.247s] Invoked command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description -- -j4 -l4
+[1.249s] Invoking command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description
+[1.266s] -- Install configuration: ""
+[1.266s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes
+[1.266s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[1.266s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[1.267s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[1.271s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[1.271s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[1.272s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[1.272s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/urdf
+[1.273s] -- Installing: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[1.274s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro~
+[1.275s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[1.275s] -- Installing: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[1.277s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[1.277s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[1.279s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[1.279s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[1.280s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[1.280s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[1.280s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[1.281s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[1.281s] -- Installing: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/package.dsv
+[1.281s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[1.282s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[1.282s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[1.282s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_description/share/bumperbot_description/package.xml
+[1.282s] Invoked command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_description

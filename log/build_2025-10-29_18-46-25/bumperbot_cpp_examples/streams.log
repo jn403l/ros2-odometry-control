@@ -1,0 +1,26 @@
+[0.054s] Invoking command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples -- -j4 -l4
+[0.255s] [ 33%] Built target simple_publisher
+[0.263s] [ 66%] Built target simple_subscriber
+[0.283s] [100%] Built target simple_parameter
+[0.644s] Invoked command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples -- -j4 -l4
+[0.660s] Invoking command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples
+[0.679s] -- Install configuration: "Debug"
+[0.680s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.683s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.685s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.685s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.686s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.686s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.687s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.689s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.689s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.689s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.690s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.690s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.691s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.692s] -- Installing: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.692s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.693s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.693s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.693s] -- Up-to-date: /home/jn403l/Documents/ros2-odometry-control/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.694s] Invoked command in '/home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jn403l/Documents/ros2-odometry-control/install/bumperbot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jn403l/Documents/ros2-odometry-control/build/bumperbot_cpp_examples
